@@ -5,23 +5,23 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-blue-50 to-teal-50">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent">
               Анна Иванова
             </h1>
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">Главная</a>
-              <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">Обо мне</a>
-              <a href="#portfolio" className="text-gray-700 hover:text-purple-600 transition-colors">Работы</a>
-              <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">Услуги</a>
-              <a href="#blog" className="text-gray-700 hover:text-purple-600 transition-colors">Блог</a>
-              <a href="#contacts" className="text-gray-700 hover:text-purple-600 transition-colors">Контакты</a>
+              <a href="#home" className="text-gray-700 hover:text-cyan-600 transition-colors">Главная</a>
+              <a href="#about" className="text-gray-700 hover:text-cyan-600 transition-colors">Обо мне</a>
+              <a href="#portfolio" className="text-gray-700 hover:text-cyan-600 transition-colors">Работы</a>
+              <a href="#services" className="text-gray-700 hover:text-cyan-600 transition-colors">Услуги</a>
+              <a href="#blog" className="text-gray-700 hover:text-cyan-600 transition-colors">Блог</a>
+              <a href="#contacts" className="text-gray-700 hover:text-cyan-600 transition-colors">Контакты</a>
             </div>
-            <Button size="sm" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
+            <Button size="sm" className="bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-700 hover:to-teal-700">
               Связаться
             </Button>
           </div>
@@ -33,13 +33,13 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <Badge className="mb-4 bg-purple-100 text-purple-700 hover:bg-purple-200">
+              <Badge className="mb-4 bg-cyan-100 text-cyan-700 hover:bg-cyan-200">
                 <Icon name="Sparkles" size={16} className="mr-2" />
                 Креативный специалист
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold font-heading mb-6 leading-tight">
                 Создаю{' '}
-                <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-cyan-600 via-teal-600 to-blue-600 bg-clip-text text-transparent">
                   контент
                 </span>{' '}
                 будущего
@@ -49,7 +49,7 @@ const Index = () => {
                 и контент с помощью нейросетей — всё для вашего бренда
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
+                <Button size="lg" className="bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-700 hover:to-teal-700">
                   <Icon name="Play" size={20} className="mr-2" />
                   Смотреть работы
                 </Button>
@@ -60,7 +60,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative animate-scale-in">
-              <div className="w-full h-96 bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400 rounded-2xl shadow-2xl relative overflow-hidden">
+              <div className="w-full h-96 bg-gradient-to-br from-cyan-400 via-teal-400 to-blue-400 rounded-2xl shadow-2xl relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="absolute bottom-6 left-6 text-white">
                   <Icon name="Camera" size={48} />
@@ -81,7 +81,7 @@ const Index = () => {
                 Обо мне
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Привет! Мне 22 года, и я превращаю идеи в визуальные истории. 
+                Привет! Меня зовут Ирина, и я превращаю идеи в визуальные истории. 
                 Специализируюсь на комплексном подходе к созданию контента — 
                 от стратегии в социальных сетях до финального видео.
               </p>
@@ -341,7 +341,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-gray-600">anna@example.com</p>
+                    <p className="text-gray-600">irina@example.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -359,7 +359,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Telegram</p>
-                    <p className="text-gray-600">@anna_creative</p>
+                    <p className="text-gray-600">@irina_creative</p>
                   </div>
                 </div>
               </div>
@@ -396,7 +396,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div>
               <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Анна Иванова
+                Ирина Захарчук
               </h3>
               <p className="text-gray-400">Креативный специалист</p>
             </div>
@@ -416,7 +416,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Анна Иванова. Все права защищены.</p>
+            <p>&copy; 2024 Ирина Захарчук. Все права защищены.</p>
           </div>
         </div>
       </footer>
